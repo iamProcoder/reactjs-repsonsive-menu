@@ -1,13 +1,34 @@
 import React from 'react';
 
-var styles = {"test":"_3ybTi"};
-
-var ExampleComponent = function ExampleComponent(_ref) {
-  var text = _ref.text;
-  return /*#__PURE__*/React.createElement("div", {
-    className: styles.test
-  }, "Example Component: ", text);
+var ResponsiveMenuComponent = function ResponsiveMenuComponent() {
+  var options = {
+    isTitle: true,
+    isLogo: false,
+    logoSettings: {
+      logo: '',
+      logoWidth: 50,
+      logoHeight: 50
+    },
+    title: "Responsive Menu",
+    navigationBackgroundColor: '',
+    routerList: [{
+      rName: "Home",
+      rLink: "/home"
+    }, {
+      rName: "About",
+      rLink: "/about"
+    }, {
+      rName: "Contact",
+      rLink: "/contact"
+    }, {
+      rName: "Departmants",
+      rLink: "/departmants"
+    }]
+  };
+  return /*#__PURE__*/React.createElement(Hamburger, {
+    options: options
+  });
 };
 
-export { ExampleComponent };
+export { ResponsiveMenuComponent };
 //# sourceMappingURL=index.modern.js.map
