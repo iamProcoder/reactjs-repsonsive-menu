@@ -1,6 +1,6 @@
 {
   "name": "reactjs-responsive-menubar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "react responsive menu component",
   "keywords": [
     "react",
@@ -31,7 +31,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^18.0.0"
+    "react": "^18.0.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
