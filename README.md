@@ -2,7 +2,7 @@
 
 > react responsive menu component
 
-[![NPM](https://img.shields.io/npm/v/reactjs-responsive-menu.svg)](https://www.npmjs.com/package/reactjs-responsive-menu) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 ## Install
 
@@ -67,7 +67,7 @@ function App() {
 export default App;
 
 ```
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
 ## License
 
 MIT © [Faruk Mintas](https://github.com/iamProcoder)
