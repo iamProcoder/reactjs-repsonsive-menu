@@ -13,7 +13,7 @@ npm install --save reactjs-responsive-menu
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
 // import router dom
 import { BrowserRouter, Routes, Route } from "react-router-dom";
