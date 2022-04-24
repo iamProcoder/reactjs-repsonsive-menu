@@ -50,7 +50,6 @@ function App() {
 
   return (
     <div className="App">      
-      
       <BrowserRouter>
         <ResponsiveMenuComponent options={options}  />
         <Routes>      
